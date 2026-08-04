@@ -1,10 +1,10 @@
-![Ahmad Zulfiqar — AI/ML Engineer & Full-Stack Developer](banner.svg?v=1)
+![Ahmad Zulfiqar — AI/ML Engineer & Full-Stack Developer](banner.svg?v=2)
 
 <table>
 <tr>
 <td valign="top" width="240">
 
-<a href="lanyard.svg?v=1"><img src="lanyard.svg?v=1" alt="Ahmad Zulfiqar ID badge" width="230"></a>
+<a href="lanyard.svg?v=2"><img src="lanyard.svg?v=2" alt="Ahmad Zulfiqar ID badge" width="230"></a>
 
 </td>
 <td valign="top">
@@ -46,7 +46,7 @@
 </p>
 
 <p align="center">
-  <a href="trophies.svg?v=1"><img src="trophies.svg?v=1" alt="Trophies" width="100%"></a>
+  <a href="trophies.svg?v=2"><img src="trophies.svg?v=2" alt="Trophies" width="100%"></a>
 </p>
 
 ### 🐍 Watch the snake eat my contributions
