@@ -4,38 +4,38 @@
   <clipPath id="scanClipL"><rect x="0" y="0" width="1280" height="740" rx="26"/></clipPath>
 
   <linearGradient id="bgGradL" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#fdf3ff"/>
-    <stop offset="45%" stop-color="#f6ecff"/>
-    <stop offset="100%" stop-color="#fff0f8"/>
+    <stop offset="0%" stop-color="#f5efef"/>
+    <stop offset="45%" stop-color="#f0e5e5"/>
+    <stop offset="100%" stop-color="#f7ecec"/>
   </linearGradient>
 
   <radialGradient id="glowPinkL" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#ff8fd6" stop-opacity="0.35"/>
-    <stop offset="100%" stop-color="#ff8fd6" stop-opacity="0"/>
+    <stop offset="0%" stop-color="#b33939" stop-opacity="0.35"/>
+    <stop offset="100%" stop-color="#b33939" stop-opacity="0"/>
   </radialGradient>
   <radialGradient id="glowPurpleL" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#b98cf7" stop-opacity="0.3"/>
-    <stop offset="100%" stop-color="#b98cf7" stop-opacity="0"/>
+    <stop offset="0%" stop-color="#c9a3a3" stop-opacity="0.3"/>
+    <stop offset="100%" stop-color="#c9a3a3" stop-opacity="0"/>
   </radialGradient>
 
   <linearGradient id="nameGradL" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#e0399b"/>
-    <stop offset="50%" stop-color="#9b3ff0"/>
-    <stop offset="100%" stop-color="#5b1fc7"/>
+    <stop offset="0%" stop-color="#800000"/>
+    <stop offset="50%" stop-color="#992e2e"/>
+    <stop offset="100%" stop-color="#992e2e"/>
     <animate attributeName="x1" values="0%;100%;0%" dur="6s" repeatCount="indefinite"/>
     <animate attributeName="x2" values="100%;200%;100%" dur="6s" repeatCount="indefinite"/>
   </linearGradient>
 
   <linearGradient id="pillGradL" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#ff2fb0" stop-opacity="0.10"/>
-    <stop offset="100%" stop-color="#7b2ff7" stop-opacity="0.10"/>
+    <stop offset="0%" stop-color="#800000" stop-opacity="0.10"/>
+    <stop offset="100%" stop-color="#992e2e" stop-opacity="0.10"/>
   </linearGradient>
 
   <linearGradient id="scanGradL" x1="0%" y1="0%" x2="0%" y2="100%">
-    <stop offset="0%" stop-color="#e0399b" stop-opacity="0"/>
-    <stop offset="45%" stop-color="#e0399b" stop-opacity="0.28"/>
-    <stop offset="55%" stop-color="#5b1fc7" stop-opacity="0.28"/>
-    <stop offset="100%" stop-color="#5b1fc7" stop-opacity="0"/>
+    <stop offset="0%" stop-color="#800000" stop-opacity="0"/>
+    <stop offset="45%" stop-color="#800000" stop-opacity="0.28"/>
+    <stop offset="55%" stop-color="#992e2e" stop-opacity="0.28"/>
+    <stop offset="100%" stop-color="#992e2e" stop-opacity="0"/>
   </linearGradient>
 
   <style>
@@ -97,7 +97,7 @@
   <circle class="orb" cx="1080" cy="120" r="220" fill="url(#glowPinkL)"/>
   <circle class="orb" cx="150" cy="620" r="260" fill="url(#glowPurpleL)" style="animation-delay:1.5s"/>
 
-  <g fill="#e0399b">
+  <g fill="#800000">
     <circle class="particle" cx="120" cy="700" r="2.5" style="animation-duration:7s; animation-delay:0s"/>
     <circle class="particle" cx="260" cy="720" r="2" style="animation-duration:9s; animation-delay:1s"/>
     <circle class="particle" cx="640" cy="710" r="2.2" style="animation-duration:8s; animation-delay:2.2s"/>
@@ -107,7 +107,7 @@
 
   <!-- terminal block -->
   <g transform="translate(48,44)">
-    <rect x="0" y="0" width="430" height="30" rx="8" fill="#5b1fc7" opacity="0.06"/>
+    <rect x="0" y="0" width="430" height="30" rx="8" fill="#992e2e" opacity="0.06"/>
     <circle cx="14" cy="15" r="4.5" fill="#ff5f57"/>
     <circle cx="30" cy="15" r="4.5" fill="#febc2e"/>
     <circle cx="46" cy="15" r="4.5" fill="#28c840"/>
@@ -135,7 +135,7 @@
   </g>
 
   <!-- cycling roles -->
-  <g transform="translate(50,196)" font-size="24" font-weight="500" fill="#5b1fc7" class="mono">
+  <g transform="translate(50,196)" font-size="24" font-weight="500" fill="#992e2e" class="mono">
     <text class="role" style="animation-delay:0s">&gt; AI &amp; ML Engineer</text>
     <text class="role" style="animation-delay:3s">&gt; Full-Stack Developer</text>
     <text class="role" style="animation-delay:6s">&gt; Generative AI Enthusiast</text>
@@ -143,59 +143,59 @@
 
   <!-- tagline quote box -->
   <g transform="translate(48,232)">
-    <rect x="0" y="0" width="560" height="52" rx="10" fill="#5b1fc7" opacity="0.05" stroke="#e0399b" stroke-opacity="0.3"/>
-    <text class="mono typeline2" x="16" y="32" font-size="15" fill="#8a1f6b">"Turning data into decisions, and code into solutions."</text>
+    <rect x="0" y="0" width="560" height="52" rx="10" fill="#992e2e" opacity="0.05" stroke="#800000" stroke-opacity="0.3"/>
+    <text class="mono typeline2" x="16" y="32" font-size="15" fill="#5c1a1a">"Turning data into decisions, and code into solutions."</text>
   </g>
 
   <!-- about lines -->
-  <g transform="translate(48,318)" font-size="14.5" fill="#5a4570" class="stack-in" style="animation-delay:1.4s">
+  <g transform="translate(48,318)" font-size="14.5" fill="#5c4a4a" class="stack-in" style="animation-delay:1.4s">
     <text y="0">CS undergrad at COMSATS University Islamabad, building with AI, ML &amp; the MERN stack.</text>
     <text y="24">Winner - CS50x Harvard Puzzle Day. Always shipping something new.</text>
   </g>
 
   <!-- tech pills -->
   <g transform="translate(48,362)" font-size="13" font-family="Courier New, monospace" font-weight="600">
-    <g class="pill" style="animation-delay:1.6s"><rect width="70" height="28" rx="14" fill="url(#pillGradL)" stroke="#e0399b" stroke-opacity="0.4"/><text x="35" y="18" text-anchor="middle" fill="#6a1f8f">Python</text></g>
-    <g class="pill" transform="translate(78,0)" style="animation-delay:1.7s"><rect width="90" height="28" rx="14" fill="url(#pillGradL)" stroke="#e0399b" stroke-opacity="0.4"/><text x="45" y="18" text-anchor="middle" fill="#6a1f8f">JavaScript</text></g>
-    <g class="pill" transform="translate(176,0)" style="animation-delay:1.8s"><rect width="66" height="28" rx="14" fill="url(#pillGradL)" stroke="#e0399b" stroke-opacity="0.4"/><text x="33" y="18" text-anchor="middle" fill="#6a1f8f">React</text></g>
-    <g class="pill" transform="translate(250,0)" style="animation-delay:1.9s"><rect width="80" height="28" rx="14" fill="url(#pillGradL)" stroke="#e0399b" stroke-opacity="0.4"/><text x="40" y="18" text-anchor="middle" fill="#6a1f8f">Node.js</text></g>
-    <g class="pill" transform="translate(338,0)" style="animation-delay:2.0s"><rect width="88" height="28" rx="14" fill="url(#pillGradL)" stroke="#e0399b" stroke-opacity="0.4"/><text x="44" y="18" text-anchor="middle" fill="#6a1f8f">FastAPI</text></g>
-    <g class="pill" transform="translate(434,0)" style="animation-delay:2.1s"><rect width="98" height="28" rx="14" fill="url(#pillGradL)" stroke="#e0399b" stroke-opacity="0.4"/><text x="49" y="18" text-anchor="middle" fill="#6a1f8f">MongoDB</text></g>
-    <g class="pill" transform="translate(0,38)" style="animation-delay:2.2s"><rect width="108" height="28" rx="14" fill="url(#pillGradL)" stroke="#e0399b" stroke-opacity="0.4"/><text x="54" y="18" text-anchor="middle" fill="#6a1f8f">TensorFlow</text></g>
-    <g class="pill" transform="translate(116,38)" style="animation-delay:2.3s"><rect width="80" height="28" rx="14" fill="url(#pillGradL)" stroke="#e0399b" stroke-opacity="0.4"/><text x="40" y="18" text-anchor="middle" fill="#6a1f8f">Flutter</text></g>
-    <g class="pill" transform="translate(204,38)" style="animation-delay:2.4s"><rect width="60" height="28" rx="14" fill="url(#pillGradL)" stroke="#e0399b" stroke-opacity="0.4"/><text x="30" y="18" text-anchor="middle" fill="#6a1f8f">C++</text></g>
-    <g class="pill" transform="translate(272,38)" style="animation-delay:2.5s"><rect width="58" height="28" rx="14" fill="url(#pillGradL)" stroke="#e0399b" stroke-opacity="0.4"/><text x="29" y="18" text-anchor="middle" fill="#6a1f8f">PHP</text></g>
+    <g class="pill" style="animation-delay:1.6s"><rect width="70" height="28" rx="14" fill="url(#pillGradL)" stroke="#800000" stroke-opacity="0.4"/><text x="35" y="18" text-anchor="middle" fill="#5c1a1a">Python</text></g>
+    <g class="pill" transform="translate(78,0)" style="animation-delay:1.7s"><rect width="90" height="28" rx="14" fill="url(#pillGradL)" stroke="#800000" stroke-opacity="0.4"/><text x="45" y="18" text-anchor="middle" fill="#5c1a1a">JavaScript</text></g>
+    <g class="pill" transform="translate(176,0)" style="animation-delay:1.8s"><rect width="66" height="28" rx="14" fill="url(#pillGradL)" stroke="#800000" stroke-opacity="0.4"/><text x="33" y="18" text-anchor="middle" fill="#5c1a1a">React</text></g>
+    <g class="pill" transform="translate(250,0)" style="animation-delay:1.9s"><rect width="80" height="28" rx="14" fill="url(#pillGradL)" stroke="#800000" stroke-opacity="0.4"/><text x="40" y="18" text-anchor="middle" fill="#5c1a1a">Node.js</text></g>
+    <g class="pill" transform="translate(338,0)" style="animation-delay:2.0s"><rect width="88" height="28" rx="14" fill="url(#pillGradL)" stroke="#800000" stroke-opacity="0.4"/><text x="44" y="18" text-anchor="middle" fill="#5c1a1a">FastAPI</text></g>
+    <g class="pill" transform="translate(434,0)" style="animation-delay:2.1s"><rect width="98" height="28" rx="14" fill="url(#pillGradL)" stroke="#800000" stroke-opacity="0.4"/><text x="49" y="18" text-anchor="middle" fill="#5c1a1a">MongoDB</text></g>
+    <g class="pill" transform="translate(0,38)" style="animation-delay:2.2s"><rect width="108" height="28" rx="14" fill="url(#pillGradL)" stroke="#800000" stroke-opacity="0.4"/><text x="54" y="18" text-anchor="middle" fill="#5c1a1a">TensorFlow</text></g>
+    <g class="pill" transform="translate(116,38)" style="animation-delay:2.3s"><rect width="80" height="28" rx="14" fill="url(#pillGradL)" stroke="#800000" stroke-opacity="0.4"/><text x="40" y="18" text-anchor="middle" fill="#5c1a1a">Flutter</text></g>
+    <g class="pill" transform="translate(204,38)" style="animation-delay:2.4s"><rect width="60" height="28" rx="14" fill="url(#pillGradL)" stroke="#800000" stroke-opacity="0.4"/><text x="30" y="18" text-anchor="middle" fill="#5c1a1a">C++</text></g>
+    <g class="pill" transform="translate(272,38)" style="animation-delay:2.5s"><rect width="58" height="28" rx="14" fill="url(#pillGradL)" stroke="#800000" stroke-opacity="0.4"/><text x="29" y="18" text-anchor="middle" fill="#5c1a1a">PHP</text></g>
   </g>
 
   <!-- stats bar -->
   <g transform="translate(48,452)" class="stack-in" style="animation-delay:2s">
-    <text font-size="13" fill="#5a4570" class="mono" y="-8">contribution_focus.chart()</text>
-    <g font-size="12" fill="#3d2b52" class="mono">
+    <text font-size="13" fill="#5c4a4a" class="mono" y="-8">contribution_focus.chart()</text>
+    <g font-size="12" fill="#2b1f1f" class="mono">
       <text x="0" y="20">Machine Learning</text>
-      <rect x="0" y="28" width="220" height="7" rx="3.5" fill="#5b1fc7" opacity="0.08"/>
+      <rect x="0" y="28" width="220" height="7" rx="3.5" fill="#992e2e" opacity="0.08"/>
       <rect x="0" y="28" width="185" height="7" rx="3.5" fill="url(#nameGradL)" class="barFill" style="transform-origin:0px 31.5px; animation-delay:2.1s"/>
 
       <text x="240" y="20">Full-Stack Dev</text>
-      <rect x="240" y="28" width="220" height="7" rx="3.5" fill="#5b1fc7" opacity="0.08"/>
+      <rect x="240" y="28" width="220" height="7" rx="3.5" fill="#992e2e" opacity="0.08"/>
       <rect x="240" y="28" width="165" height="7" rx="3.5" fill="url(#nameGradL)" class="barFill" style="transform-origin:240px 31.5px; animation-delay:2.25s"/>
 
       <text x="480" y="20">Generative AI</text>
-      <rect x="480" y="28" width="220" height="7" rx="3.5" fill="#5b1fc7" opacity="0.08"/>
+      <rect x="480" y="28" width="220" height="7" rx="3.5" fill="#992e2e" opacity="0.08"/>
       <rect x="480" y="28" width="145" height="7" rx="3.5" fill="url(#nameGradL)" class="barFill" style="transform-origin:480px 31.5px; animation-delay:2.4s"/>
     </g>
   </g>
 
   <!-- code editor card -->
   <g transform="translate(700,44)">
-    <rect width="530" height="300" rx="14" fill="#ffffff" stroke="#c9a6f5" stroke-opacity="0.6"/>
-    <rect width="530" height="34" rx="14" fill="#f3e8ff"/>
+    <rect width="530" height="300" rx="14" fill="#ffffff" stroke="#c9a3a3" stroke-opacity="0.6"/>
+    <rect width="530" height="34" rx="14" fill="#ece0e0"/>
     <circle cx="20" cy="17" r="4.5" fill="#ff5f57"/>
     <circle cx="36" cy="17" r="4.5" fill="#febc2e"/>
     <circle cx="52" cy="17" r="4.5" fill="#28c840"/>
-    <text x="70" y="22" font-size="12" fill="#6a1f8f" class="mono">buildDreams.jsx</text>
+    <text x="70" y="22" font-size="12" fill="#5c1a1a" class="mono">buildDreams.jsx</text>
 
-    <g class="mono" font-size="14" fill="#3d2b52">
-      <text class="codeline" x="20" y="66"  style="animation-delay:.3s"  fill="#c2298f">function <tspan fill="#0e8a55">buildDreams</tspan>() {</text>
+    <g class="mono" font-size="14" fill="#2b1f1f">
+      <text class="codeline" x="20" y="66"  style="animation-delay:.3s"  fill="#800000">function <tspan fill="#0e8a55">buildDreams</tspan>() {</text>
       <text class="codeline" x="40" y="94"  style="animation-delay:.9s">const skills = [</text>
       <text class="codeline" x="60" y="120" style="animation-delay:1.4s">"AI", "ML", "MERN", "GenAI"</text>
       <text class="codeline" x="40" y="146" style="animation-delay:1.9s">];</text>
@@ -203,20 +203,20 @@
       <text class="codeline" x="60" y="202" style="animation-delay:2.9s">learn(); build(); ship();</text>
       <text class="codeline" x="40" y="228" style="animation-delay:3.4s">}</text>
       <text class="codeline" x="20" y="254" style="animation-delay:3.9s">return <tspan fill="#b8860b">"impact"</tspan>;</text>
-      <text class="codeline" x="20" y="280" style="animation-delay:4.4s" fill="#c2298f">}</text>
+      <text class="codeline" x="20" y="280" style="animation-delay:4.4s" fill="#800000">}</text>
     </g>
   </g>
 
   <!-- neon sign -->
   <g transform="translate(700,392)" text-anchor="middle" font-size="22" font-weight="700" class="mono">
-    <text class="neon" x="265" y="0" fill="#e0399b">KEEP CODING</text>
-    <text class="neon" x="265" y="34" fill="#5b1fc7" style="animation-delay:.3s">KEEP GROWING</text>
+    <text class="neon" x="265" y="0" fill="#800000">KEEP CODING</text>
+    <text class="neon" x="265" y="34" fill="#992e2e" style="animation-delay:.3s">KEEP GROWING</text>
   </g>
 
   <g clip-path="url(#scanClipL)">
     <rect class="scanner" x="0" y="-100" width="1280" height="100" fill="url(#scanGradL)"/>
   </g>
 
-  <rect x="1" y="1" width="1278" height="738" rx="25" fill="none" stroke="#e0399b" stroke-opacity="0.2"/>
+  <rect x="1" y="1" width="1278" height="738" rx="25" fill="none" stroke="#800000" stroke-opacity="0.2"/>
 </g>
 </svg>

@@ -1,10 +1,10 @@
-![Ahmad Zulfiqar — AI/ML Engineer & Full-Stack Developer](banner.svg?v=2)
+![Ahmad Zulfiqar — AI/ML Engineer & Full-Stack Developer](banner.svg?v=3)
 
 <table>
 <tr>
 <td valign="top" width="240">
 
-<a href="lanyard.svg?v=2"><img src="lanyard.svg?v=2" alt="Ahmad Zulfiqar ID badge" width="230"></a>
+<a href="lanyard.svg?v=3"><img src="lanyard.svg?v=3" alt="Ahmad Zulfiqar ID badge" width="230"></a>
 
 </td>
 <td valign="top">
@@ -29,8 +29,8 @@
 ### 📊 GitHub Stats & Graphs
 
 <p align="center">
-  <a href="stats.svg?v=1"><img src="stats.svg?v=1" alt="GitHub Stats" width="49%"></a>
-  <a href="langs.svg?v=1"><img src="langs.svg?v=1" alt="Top Languages" width="38%"></a>
+  <a href="stats.svg?v=2"><img src="stats.svg?v=2" alt="GitHub Stats" width="49%"></a>
+  <a href="langs.svg?v=2"><img src="langs.svg?v=2" alt="Top Languages" width="38%"></a>
 </p>
 
 <p align="center">
@@ -46,7 +46,7 @@
 </p>
 
 <p align="center">
-  <a href="trophies.svg?v=2"><img src="trophies.svg?v=2" alt="Trophies" width="100%"></a>
+  <a href="trophies.svg?v=3"><img src="trophies.svg?v=3" alt="Trophies" width="100%"></a>
 </p>
 
 ### 🐍 Watch the snake eat my contributions

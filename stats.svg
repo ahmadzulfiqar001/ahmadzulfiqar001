@@ -1,12 +1,12 @@
 <svg width="480" height="220" viewBox="0 0 480 220" xmlns="http://www.w3.org/2000/svg">
 <defs>
   <linearGradient id="sBg" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#1a0b2e"/>
-    <stop offset="100%" stop-color="#2d1150"/>
+    <stop offset="0%" stop-color="#181818"/>
+    <stop offset="100%" stop-color="#241212"/>
   </linearGradient>
   <linearGradient id="sAccent" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#ff6ec7"/>
-    <stop offset="100%" stop-color="#7b2ff7"/>
+    <stop offset="0%" stop-color="#b33939"/>
+    <stop offset="100%" stop-color="#992e2e"/>
   </linearGradient>
   <style>
     text { font-family: 'Segoe UI', Arial, sans-serif; }
@@ -19,7 +19,7 @@
     @keyframes ringIn { from { stroke-dashoffset: 251; } to { stroke-dashoffset: 55; } }
   </style>
 </defs>
-<rect width="480" height="220" rx="16" fill="url(#sBg)" stroke="#7b2ff7" stroke-opacity="0.35"/>
+<rect width="480" height="220" rx="16" fill="url(#sBg)" stroke="#992e2e" stroke-opacity="0.35"/>
 <text x="24" y="34" font-size="16" font-weight="700" fill="#ffffff">Ahmad's GitHub Stats</text>
 
 <!-- rank ring -->
@@ -28,11 +28,11 @@
   <circle class="ring" r="46" fill="none" stroke="url(#sAccent)" stroke-width="10" stroke-linecap="round"
           stroke-dasharray="289" transform="rotate(-90)"/>
   <text text-anchor="middle" y="-2" font-size="22" font-weight="700" fill="#ffffff">A+</text>
-  <text text-anchor="middle" y="16" font-size="10" fill="#c9b6ea" class="mono">RANK</text>
+  <text text-anchor="middle" y="16" font-size="10" fill="#c9a3a3" class="mono">RANK</text>
 </g>
 
 <!-- stat rows -->
-<g transform="translate(190,60)" font-size="12" fill="#e9d8ff" class="mono">
+<g transform="translate(190,60)" font-size="12" fill="#e6d6d6" class="mono">
   <g class="row" style="animation-delay:.1s">
     <text x="0" y="10">Total Stars Earned</text>
     <text x="270" y="10" text-anchor="end" fill="#ffd166">42</text>
