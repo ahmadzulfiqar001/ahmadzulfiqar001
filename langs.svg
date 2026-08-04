@@ -1,0 +1,63 @@
+<svg width="380" height="220" viewBox="0 0 380 220" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="lBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#1a0b2e"/>
+    <stop offset="100%" stop-color="#2d1150"/>
+  </linearGradient>
+  <style>
+    text { font-family: 'Segoe UI', Arial, sans-serif; }
+    .mono { font-family: 'Courier New', ui-monospace, monospace; }
+    .row { opacity:0; animation: slideIn .6s ease forwards; }
+    @keyframes slideIn { from { opacity:0; transform: translateX(-14px);} to { opacity:1; transform: translateX(0);} }
+    .bar { animation: grow 1.3s cubic-bezier(.2,.8,.2,1) forwards; }
+    @keyframes grow { from { transform: scaleX(0);} to { transform: scaleX(1);} }
+  </style>
+</defs>
+<rect width="380" height="220" rx="16" fill="url(#lBg)" stroke="#7b2ff7" stroke-opacity="0.35"/>
+<text x="24" y="34" font-size="16" font-weight="700" fill="#ffffff">Most Used Languages</text>
+
+<g transform="translate(24,54)" font-size="12" fill="#e9d8ff" class="mono">
+  <g class="row" style="animation-delay:.05s">
+    <circle cx="4" cy="6" r="4" fill="#3572A5"/>
+    <text x="16" y="10">Python</text>
+    <text x="332" y="10" text-anchor="end" fill="#c9b6ea">38.4%</text>
+    <rect x="0" y="18" width="332" height="6" rx="3" fill="#ffffff" opacity="0.08"/>
+    <rect class="bar" x="0" y="18" width="128" height="6" rx="3" fill="#3572A5" style="transform-origin:0 21px; animation-delay:.2s"/>
+  </g>
+  <g class="row" style="animation-delay:.2s">
+    <circle cx="4" cy="42" r="4" fill="#f1e05a"/>
+    <text x="16" y="46">JavaScript</text>
+    <text x="332" y="46" text-anchor="end" fill="#c9b6ea">24.1%</text>
+    <rect x="0" y="54" width="332" height="6" rx="3" fill="#ffffff" opacity="0.08"/>
+    <rect class="bar" x="0" y="54" width="80" height="6" rx="3" fill="#f1e05a" style="transform-origin:0 57px; animation-delay:.35s"/>
+  </g>
+  <g class="row" style="animation-delay:.35s">
+    <circle cx="4" cy="78" r="4" fill="#61dafb"/>
+    <text x="16" y="82">React / JSX</text>
+    <text x="332" y="82" text-anchor="end" fill="#c9b6ea">14.6%</text>
+    <rect x="0" y="90" width="332" height="6" rx="3" fill="#ffffff" opacity="0.08"/>
+    <rect class="bar" x="0" y="90" width="48" height="6" rx="3" fill="#61dafb" style="transform-origin:0 93px; animation-delay:.5s"/>
+  </g>
+  <g class="row" style="animation-delay:.5s">
+    <circle cx="4" cy="114" r="4" fill="#00599C"/>
+    <text x="16" y="118">C++</text>
+    <text x="332" y="118" text-anchor="end" fill="#c9b6ea">11.2%</text>
+    <rect x="0" y="126" width="332" height="6" rx="3" fill="#ffffff" opacity="0.08"/>
+    <rect class="bar" x="0" y="126" width="37" height="6" rx="3" fill="#00599C" style="transform-origin:0 129px; animation-delay:.65s"/>
+  </g>
+  <g class="row" style="animation-delay:.65s">
+    <circle cx="4" cy="150" r="4" fill="#4F5D95"/>
+    <text x="16" y="154">PHP</text>
+    <text x="332" y="154" text-anchor="end" fill="#c9b6ea">7.3%</text>
+    <rect x="0" y="162" width="332" height="6" rx="3" fill="#ffffff" opacity="0.08"/>
+    <rect class="bar" x="0" y="162" width="24" height="6" rx="3" fill="#4F5D95" style="transform-origin:0 165px; animation-delay:.8s"/>
+  </g>
+  <g class="row" style="animation-delay:.8s">
+    <circle cx="4" cy="186" r="4" fill="#02569B"/>
+    <text x="16" y="190">Dart / Flutter</text>
+    <text x="332" y="190" text-anchor="end" fill="#c9b6ea">4.4%</text>
+    <rect x="0" y="198" width="332" height="6" rx="3" fill="#ffffff" opacity="0.08"/>
+    <rect class="bar" x="0" y="198" width="15" height="6" rx="3" fill="#02569B" style="transform-origin:0 201px; animation-delay:.95s"/>
+  </g>
+</g>
+</svg>

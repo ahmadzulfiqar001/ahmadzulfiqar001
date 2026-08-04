@@ -1,0 +1,72 @@
+<svg width="820" height="180" viewBox="0 0 820 180" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="tBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#1a0b2e"/>
+    <stop offset="100%" stop-color="#2d1150"/>
+  </linearGradient>
+  <linearGradient id="tGold" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#ffe08a"/>
+    <stop offset="100%" stop-color="#e0a527"/>
+  </linearGradient>
+  <clipPath id="tClip"><rect width="820" height="180" rx="16"/></clipPath>
+  <style>
+    text { font-family: 'Segoe UI', Arial, sans-serif; }
+    .mono { font-family: 'Courier New', ui-monospace, monospace; }
+    .cell { opacity:0; animation: popIn .55s cubic-bezier(.3,1.4,.5,1) forwards; }
+    @keyframes popIn { from { opacity:0; transform: scale(.7) translateY(10px);} to { opacity:1; transform: scale(1) translateY(0);} }
+    .shine { animation: shineMove 3.6s ease-in-out infinite; }
+    @keyframes shineMove { 0% { transform: translateX(-140px);} 60%,100% { transform: translateX(820px);} }
+    .glow { animation: glowPulse 2.4s ease-in-out infinite; }
+    @keyframes glowPulse { 0%,100% { opacity:.5;} 50% { opacity:1;} }
+  </style>
+</defs>
+<g clip-path="url(#tClip)">
+<rect width="820" height="180" fill="url(#tBg)"/>
+
+<g transform="translate(0,10)">
+  <!-- 5 trophy cells -->
+  <g class="cell" transform="translate(20,0)" style="animation-delay:.05s">
+    <rect width="150" height="150" rx="14" fill="#ffffff" opacity="0.04" stroke="#7b2ff7" stroke-opacity="0.4"/>
+    <circle class="glow" cx="75" cy="52" r="26" fill="url(#tGold)" opacity="0.9"/>
+    <text x="75" y="60" text-anchor="middle" font-size="26">🏆</text>
+    <text x="75" y="98" text-anchor="middle" font-size="11" fill="#e9d8ff" font-weight="700">Puzzle Master</text>
+    <text x="75" y="116" text-anchor="middle" font-size="9" fill="#c9b6ea" class="mono">CS50x Harvard</text>
+    <text x="75" y="134" text-anchor="middle" font-size="9" fill="#ffd166" class="mono">RANK: S</text>
+  </g>
+  <g class="cell" transform="translate(180,0)" style="animation-delay:.15s">
+    <rect width="150" height="150" rx="14" fill="#ffffff" opacity="0.04" stroke="#7b2ff7" stroke-opacity="0.4"/>
+    <circle class="glow" cx="75" cy="52" r="26" fill="url(#tGold)" opacity="0.85"/>
+    <text x="75" y="60" text-anchor="middle" font-size="26">⚡</text>
+    <text x="75" y="98" text-anchor="middle" font-size="11" fill="#e9d8ff" font-weight="700">Hackathon</text>
+    <text x="75" y="116" text-anchor="middle" font-size="9" fill="#c9b6ea" class="mono">Web Mind '25</text>
+    <text x="75" y="134" text-anchor="middle" font-size="9" fill="#ffd166" class="mono">RANK: A</text>
+  </g>
+  <g class="cell" transform="translate(340,0)" style="animation-delay:.25s">
+    <rect width="150" height="150" rx="14" fill="#ffffff" opacity="0.04" stroke="#7b2ff7" stroke-opacity="0.4"/>
+    <circle class="glow" cx="75" cy="52" r="26" fill="url(#tGold)" opacity="0.85"/>
+    <text x="75" y="60" text-anchor="middle" font-size="26">🧠</text>
+    <text x="75" y="98" text-anchor="middle" font-size="11" fill="#e9d8ff" font-weight="700">AI Builder</text>
+    <text x="75" y="116" text-anchor="middle" font-size="9" fill="#c9b6ea" class="mono">7+ ML/AI apps</text>
+    <text x="75" y="134" text-anchor="middle" font-size="9" fill="#ffd166" class="mono">RANK: A+</text>
+  </g>
+  <g class="cell" transform="translate(500,0)" style="animation-delay:.35s">
+    <rect width="150" height="150" rx="14" fill="#ffffff" opacity="0.04" stroke="#7b2ff7" stroke-opacity="0.4"/>
+    <circle class="glow" cx="75" cy="52" r="26" fill="url(#tGold)" opacity="0.85"/>
+    <text x="75" y="60" text-anchor="middle" font-size="26">🔥</text>
+    <text x="75" y="98" text-anchor="middle" font-size="11" fill="#e9d8ff" font-weight="700">Streak Keeper</text>
+    <text x="75" y="116" text-anchor="middle" font-size="9" fill="#c9b6ea" class="mono">Since 2023</text>
+    <text x="75" y="134" text-anchor="middle" font-size="9" fill="#ffd166" class="mono">RANK: B+</text>
+  </g>
+  <g class="cell" transform="translate(660,0)" style="animation-delay:.45s">
+    <rect width="150" height="150" rx="14" fill="#ffffff" opacity="0.04" stroke="#7b2ff7" stroke-opacity="0.4"/>
+    <circle class="glow" cx="75" cy="52" r="26" fill="url(#tGold)" opacity="0.85"/>
+    <text x="75" y="60" text-anchor="middle" font-size="26">🚀</text>
+    <text x="75" y="98" text-anchor="middle" font-size="11" fill="#e9d8ff" font-weight="700">Full Stack</text>
+    <text x="75" y="116" text-anchor="middle" font-size="9" fill="#c9b6ea" class="mono">14+ projects</text>
+    <text x="75" y="134" text-anchor="middle" font-size="9" fill="#ffd166" class="mono">RANK: A</text>
+  </g>
+</g>
+
+<rect class="shine" x="0" y="0" width="60" height="180" fill="#ffffff" opacity="0.05" transform="skewX(-18)"/>
+</g>
+</svg>
