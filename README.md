@@ -1,7 +1,30 @@
 ![Ahmad Zulfiqar — AI/ML Engineer & Full-Stack Developer](banner.svg?v=1)
 
-| <a href="lanyard.svg?v=1"><img src="lanyard.svg?v=1" alt="Ahmad Zulfiqar ID badge" width="230"></a> | 🚀 Featured Projects<br><br>\| 🧠 Project \| 💻 Tech \| \|---\|---\| \| [🛣️ Women Safety Route Advisor](https://github.com/ahmadzulfiqar001) \| `FastAPI` `React` `Leaflet` \| \| [📡 SENTINEL.AI — Risk Intelligence](https://github.com/ahmadzulfiqar001) \| `Gemini Flash` `IoT` \| \| [🛡️ Federated CNN-BiLSTM-Attention IDS](https://github.com/ahmadzulfiqar001) \| `Python` `Deep Learning` \| \| [🕵️ AI Fraud Detection & Streaming Intel](https://github.com/ahmadzulfiqar001) \| `XGBoost` `Autoencoders` \| \| [🛒 MERN E-Commerce Platform](https://github.com/ahmadzulfiqar001) \| `MongoDB` `Express` `React` `Node` \| \| [🎓 EduNova — Student Community App](https://github.com/ahmadzulfiqar001) \| `Flutter` `Firebase` \|<br><br>> 💜 *"Turning data into decisions, and code into solutions."* |
+<table>
+<tr>
+<td valign="top" width="240">
+
+<a href="lanyard.svg?v=1"><img src="lanyard.svg?v=1" alt="Ahmad Zulfiqar ID badge" width="230"></a>
+
+</td>
+<td valign="top">
+
+### 🚀 Featured Projects
+
+| 🧠 Project | 💻 Tech |
 |---|---|
+| [🛣️ Women Safety Route Advisor](https://github.com/ahmadzulfiqar001) | `FastAPI` `React` `Leaflet` |
+| [📡 SENTINEL.AI — Risk Intelligence](https://github.com/ahmadzulfiqar001) | `Gemini Flash` `IoT` |
+| [🛡️ Federated CNN-BiLSTM-Attention IDS](https://github.com/ahmadzulfiqar001) | `Python` `Deep Learning` |
+| [🕵️ AI Fraud Detection & Streaming Intel](https://github.com/ahmadzulfiqar001) | `XGBoost` `Autoencoders` |
+| [🛒 MERN E-Commerce Platform](https://github.com/ahmadzulfiqar001) | `MongoDB` `Express` `React` `Node` |
+| [🎓 EduNova — Student Community App](https://github.com/ahmadzulfiqar001) | `Flutter` `Firebase` |
+
+> 💜 *"Turning data into decisions, and code into solutions."*
+
+</td>
+</tr>
+</table>
 
 ### 📊 GitHub Stats & Graphs
 
@@ -40,7 +63,7 @@
 
 <p align="center">
   <a href="mailto:ahmadzulfiqarali001@gmail.com"><img src="https://img.shields.io/badge/Email-ff2fb0?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://linkedin.com/in/ahmadzulfiqarali"><img src="https://img.shields.io/badge/LinkedIn-7b2ff7?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://linkedin.com/in/ahmad-zulfiqar-864431381"><img src="https://img.shields.io/badge/LinkedIn-7b2ff7?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://github.com/ahmadzulfiqar001"><img src="https://img.shields.io/badge/GitHub-c86dfa?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
 </p>
 
