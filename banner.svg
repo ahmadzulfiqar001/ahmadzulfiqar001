@@ -54,12 +54,6 @@
     .typeline2 { animation: reveal 2.6s steps(46,end) forwards; animation-delay: .2s; opacity:0; animation-fill-mode: forwards; }
     @keyframes reveal { from { clip-path: inset(0 100% 0 0);} to { clip-path: inset(0 0 0 0);} }
 
-    .fadein { opacity:0; animation: fadeUp .7s ease forwards; }
-    @keyframes fadeUp { from{opacity:0; transform: translateY(10px);} to{opacity:1; transform: translateY(0);} }
-
-    .namepop { opacity:0; animation: namePop 1s cubic-bezier(.2,1.4,.4,1) forwards; animation-delay: .9s; }
-    @keyframes namePop { from{opacity:0; transform: scale(.85) translateY(14px);} to{opacity:1; transform: scale(1) translateY(0);} }
-
     .role { opacity: 0; animation: roleCarousel 9s ease infinite; }
     @keyframes roleCarousel {
       0%   { opacity: 0; }
@@ -69,7 +63,7 @@
       100% { opacity: 0; }
     }
 
-    .pill { opacity: 0; animation: fadeUp .6s ease forwards; }
+    .pill { opacity: 0; animation: fadeOpacity .6s ease forwards; }
     .barFill { animation: growBar 1.6s cubic-bezier(.2,.8,.2,1) forwards; }
     @keyframes growBar { from { transform: scaleX(0); } to { transform: scaleX(1); } }
 
@@ -92,8 +86,11 @@
       100% { transform: translateY(-620px) translateX(20px); opacity: 0; }
     }
 
-    .heart { animation: floatHeart ease-in-out infinite; }
-    @keyframes floatHeart { 0%,100% { transform: translateY(0);} 50% { transform: translateY(-14px);} }
+    /* NOTE: .heart uses opacity-only pulse (not translateY) because the heart
+       paths already carry their own transform="translate(...) scale(...)" attribute;
+       animating the CSS transform property would replace that attribute entirely. */
+    .heart { animation: heartPulse 2.4s ease-in-out infinite; }
+    @keyframes heartPulse { 0%,100% { opacity: .55;} 50% { opacity: 1;} }
 
     .sparkle { animation: twinkle ease-in-out infinite; }
     @keyframes twinkle { 0%,100% { opacity: .15; transform: scale(.7);} 50% { opacity: 1; transform: scale(1.15);} }
@@ -103,6 +100,15 @@
 
     .dot { animation: dotPulse 1.6s ease-in-out infinite; }
     @keyframes dotPulse { 0%,100% { opacity: .4; } 50% { opacity: 1; } }
+
+    /* NOTE: fadeOpacity/namePopOpacity are opacity-only (no transform) because
+       the groups they're applied to already carry a transform="translate(x,y)"
+       attribute for positioning. Animating CSS `transform` on the same element
+       would overwrite that attribute and collapse the element to the origin. */
+    .fadein { opacity: 0; animation: fadeOpacity .7s ease forwards; }
+    @keyframes fadeOpacity { from { opacity: 0; } to { opacity: 1; } }
+    .namepop { opacity: 0; animation: namePopOpacity 1s ease forwards; animation-delay: .9s; }
+    @keyframes namePopOpacity { from { opacity: 0; } to { opacity: 1; } }
   </style>
 </defs>
 

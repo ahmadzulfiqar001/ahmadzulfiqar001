@@ -38,8 +38,8 @@
     @keyframes shineMove { 0% { transform: translateX(-200px); } 60%,100% { transform: translateX(260px); } }
     .ringPulse { animation: ringGlow 2.6s ease-in-out infinite; }
     @keyframes ringGlow { 0%,100% { opacity:.6; } 50% { opacity:1; } }
-    .heart { animation: floatHeart 2.4s ease-in-out infinite; }
-    @keyframes floatHeart { 0%,100% { transform: translateY(0);} 50% { transform: translateY(-4px);} }
+    .heart { animation: heartPulse 2.4s ease-in-out infinite; }
+    @keyframes heartPulse { 0%,100% { opacity: .7;} 50% { opacity: 1;} }
     text { font-family: 'Segoe UI', Arial, sans-serif; }
     .mono { font-family: 'Courier New', ui-monospace, monospace; }
     .script { font-family: 'Segoe Script', 'Brush Script MT', cursive; }
