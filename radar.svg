@@ -1,0 +1,58 @@
+<svg width="440" height="320" viewBox="0 0 440 320" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="rBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#181818"/>
+    <stop offset="100%" stop-color="#241212"/>
+  </linearGradient>
+  <style>
+    text { font-family: 'Segoe UI', Arial, sans-serif; }
+    .mono { font-family: 'Courier New', ui-monospace, monospace; }
+    .dataPoly {
+      stroke-dasharray: 620;
+      stroke-dashoffset: 620;
+      animation: draw 1.8s ease forwards, fillIn 1.8s ease forwards;
+      animation-delay: .2s;
+    }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    @keyframes fillIn { from { fill-opacity: 0; } to { fill-opacity: 0.35; } }
+    .dot { opacity: 0; animation: dotIn .4s ease forwards; }
+    @keyframes dotIn { to { opacity: 1; } }
+    .lbl { opacity: 0; animation: lblIn .6s ease forwards; }
+    @keyframes lblIn { to { opacity: 1; } }
+  </style>
+</defs>
+
+<rect width="440" height="320" rx="16" fill="url(#rBg)" stroke="#800000" stroke-opacity="0.35"/>
+<text x="24" y="30" font-size="15" font-weight="700" fill="#ffffff">Skills Radar</text>
+
+<g>
+  <polygon points="215.0,145.0 232.3,155.0 232.3,175.0 215.0,185.0 197.7,175.0 197.7,155.0" fill="none" stroke="#3a1a1a" stroke-width="1"/>
+  <polygon points="215.0,125.0 249.6,145.0 249.6,185.0 215.0,205.0 180.4,185.0 180.4,145.0" fill="none" stroke="#3a1a1a" stroke-width="1"/>
+  <polygon points="215.0,105.0 267.0,135.0 267.0,195.0 215.0,225.0 163.0,195.0 163.0,135.0" fill="none" stroke="#3a1a1a" stroke-width="1"/>
+  <polygon points="215.0,85.0 284.3,125.0 284.3,205.0 215.0,245.0 145.7,205.0 145.7,125.0" fill="none" stroke="#3a1a1a" stroke-width="1"/>
+  <polygon points="215.0,65.0 301.6,115.0 301.6,215.0 215.0,265.0 128.4,215.0 128.4,115.0" fill="none" stroke="#3a1a1a" stroke-width="1"/>
+
+  <line x1="215" y1="165" x2="215.0" y2="65.0" stroke="#3a1a1a" stroke-width="1"/>
+  <line x1="215" y1="165" x2="301.6" y2="115.0" stroke="#3a1a1a" stroke-width="1"/>
+  <line x1="215" y1="165" x2="301.6" y2="215.0" stroke="#3a1a1a" stroke-width="1"/>
+  <line x1="215" y1="165" x2="215.0" y2="265.0" stroke="#3a1a1a" stroke-width="1"/>
+  <line x1="215" y1="165" x2="128.4" y2="215.0" stroke="#3a1a1a" stroke-width="1"/>
+  <line x1="215" y1="165" x2="128.4" y2="115.0" stroke="#3a1a1a" stroke-width="1"/>
+
+  <polygon class="dataPoly" points="215.0,75.0 288.6,122.5 271.3,197.5 215.0,240.0 163.0,195.0 138.8,121.0" fill="#800000" fill-opacity="0" stroke="#b33939" stroke-width="2.5"/>
+
+  <circle class="dot" cx="215.0" cy="75.0" r="4" fill="#a83232" stroke="#181818" stroke-width="1.5" style="animation-delay:1.8s"/>
+  <circle class="dot" cx="288.6" cy="122.5" r="4" fill="#a83232" stroke="#181818" stroke-width="1.5" style="animation-delay:1.9s"/>
+  <circle class="dot" cx="271.3" cy="197.5" r="4" fill="#a83232" stroke="#181818" stroke-width="1.5" style="animation-delay:2.0s"/>
+  <circle class="dot" cx="215.0" cy="240.0" r="4" fill="#a83232" stroke="#181818" stroke-width="1.5" style="animation-delay:2.1s"/>
+  <circle class="dot" cx="163.0" cy="195.0" r="4" fill="#a83232" stroke="#181818" stroke-width="1.5" style="animation-delay:2.2s"/>
+  <circle class="dot" cx="138.8" cy="121.0" r="4" fill="#a83232" stroke="#181818" stroke-width="1.5" style="animation-delay:2.3s"/>
+
+  <text class="lbl" x="215.0" y="27.0" text-anchor="middle" font-size="12" fill="#c9a3a3" style="animation-delay:2.2s">AI / ML</text>
+  <text class="lbl" x="334.5" y="96.0" text-anchor="start" font-size="12" fill="#c9a3a3" style="animation-delay:2.3s">Web Dev</text>
+  <text class="lbl" x="334.5" y="234.0" text-anchor="start" font-size="12" fill="#c9a3a3" style="animation-delay:2.4s">Mobile</text>
+  <text class="lbl" x="215.0" y="303.0" text-anchor="middle" font-size="12" fill="#c9a3a3" style="animation-delay:2.5s">Databases</text>
+  <text class="lbl" x="95.5" y="234.0" text-anchor="end" font-size="12" fill="#c9a3a3" style="animation-delay:2.6s">DevOps</text>
+  <text class="lbl" x="95.5" y="96.0" text-anchor="end" font-size="12" fill="#c9a3a3" style="animation-delay:2.7s">Problem Solving</text>
+</g>
+</svg>

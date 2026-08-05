@@ -26,11 +26,21 @@
 </tr>
 </table>
 
+### 📡 Status
+
+<p align="center">
+  <img src="currently.svg?v=1" alt="Currently building/learning" width="100%">
+</p>
+
 ### 📊 GitHub Stats & Graphs
 
 <p align="center">
   <a href="stats.svg?v=2"><img src="stats.svg?v=2" alt="GitHub Stats" width="49%"></a>
   <a href="langs.svg?v=2"><img src="langs.svg?v=2" alt="Top Languages" width="38%"></a>
+</p>
+
+<p align="center">
+  <a href="radar.svg?v=1"><img src="radar.svg?v=1" alt="Skills Radar" width="44%"></a>
 </p>
 
 <p align="center">
@@ -69,6 +79,13 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=ahmadzulfiqar001&color=800000&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/☕_Coffee_Consumed-500+_Cups-800000?style=flat-square&labelColor=181818" alt="Coffee">
+  <img src="https://img.shields.io/badge/💻_Lines_of_Code-50K+-800000?style=flat-square&labelColor=181818" alt="Lines of code">
+  <img src="https://img.shields.io/badge/🐛_Bugs_Fixed-200+-800000?style=flat-square&labelColor=181818" alt="Bugs fixed">
+  <img src="https://img.shields.io/badge/⏰_Debugging_Hours-300+-800000?style=flat-square&labelColor=181818" alt="Debugging hours">
 </p>
 
 <p align="center"><i>⭐️ Always learning, always building.</i></p>

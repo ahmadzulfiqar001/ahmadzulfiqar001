@@ -1,0 +1,29 @@
+<svg width="620" height="150" viewBox="0 0 620 150" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="cBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#181818"/>
+    <stop offset="100%" stop-color="#241212"/>
+  </linearGradient>
+  <style>
+    .mono { font-family: 'Courier New', ui-monospace, monospace; }
+    .line1 { animation: reveal 1.8s steps(50,end) forwards; }
+    .line2 { animation: reveal 1.8s steps(50,end) forwards; animation-delay: 1.9s; opacity: 0; animation-fill-mode: forwards; }
+    .line3 { animation: reveal 1.8s steps(50,end) forwards; animation-delay: 3.8s; opacity: 0; animation-fill-mode: forwards; }
+    @keyframes reveal { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 0%,50%{opacity:1;} 51%,100%{opacity:0;} }
+  </style>
+</defs>
+<rect width="620" height="150" rx="16" fill="url(#cBg)" stroke="#800000" stroke-opacity="0.35"/>
+<circle cx="24" cy="24" r="4.5" fill="#ff5f57"/>
+<circle cx="40" cy="24" r="4.5" fill="#febc2e"/>
+<circle cx="56" cy="24" r="4.5" fill="#28c840"/>
+<text x="80" y="29" font-size="12" fill="#c9a3a3" class="mono">status.sh</text>
+
+<g class="mono" font-size="15" fill="#e6d6d6">
+  <text class="line1" x="24" y="68">🔭 Currently building: SENTINEL.AI multimodal risk platform</text>
+  <text class="line2" x="24" y="98">🌱 Currently learning: Advanced Deep Learning &amp; MLOps</text>
+  <text class="line3" x="24" y="128">💬 Ask me about: AI/ML, MERN stack, Federated Learning</text>
+  <rect x="24" y="118" width="8" height="16" fill="#b33939" opacity="0" class="cursor" style="animation-delay:5.6s"/>
+</g>
+</svg>
