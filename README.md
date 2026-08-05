@@ -20,7 +20,7 @@
 | [🛒 MERN E-Commerce Platform](https://github.com/ahmadzulfiqar001) | `MongoDB` `Express` `React` `Node` |
 | [🎓 EduNova — Student Community App](https://github.com/ahmadzulfiqar001) | `Flutter` `Firebase` |
 
-> 💜 *"Turning data into decisions, and code into solutions."*
+>  *"Turning data into decisions, and code into solutions."*
 
 </td>
 </tr>
@@ -40,8 +40,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github-readme-activity-graph.vercel.app/graph?username=ahmadzulfiqar001&bg_color=1a0b2e&color=ff2fb0&line=ff6ec7&point=e9d8ff&area=true&area_color=7b2ff7&hide_border=true&custom_title=Contribution%20Graph%20💗">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=ahmadzulfiqar001&bg_color=1a0b2e&color=ff2fb0&line=ff6ec7&point=e9d8ff&area=true&area_color=7b2ff7&hide_border=true&custom_title=Contribution%20Graph%20💗" alt="Contribution graph" width="100%">
+  <a href="https://github-readme-activity-graph.vercel.app/graph?username=ahmadzulfiqar001&bg_color=1a0b2e&color=ff2fb0&line=ff6ec7&point=e9d8ff&area=true&area_color=7b2ff7&hide_border=true&custom_title=Contribution%20Graph%20">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=ahmadzulfiqar001&bg_color=1a0b2e&color=ff2fb0&line=ff6ec7&point=e9d8ff&area=true&area_color=7b2ff7&hide_border=true&custom_title=Contribution%20Graph%20" alt="Contribution graph" width="100%">
   </a>
 </p>
 
