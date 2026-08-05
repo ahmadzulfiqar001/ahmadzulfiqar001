@@ -67,7 +67,7 @@
     .barFill { animation: growBar 1.6s cubic-bezier(.2,.8,.2,1) forwards; }
     @keyframes growBar { from { transform: scaleX(0); } to { transform: scaleX(1); } }
 
-    .codeline { animation: reveal 1.4s steps(40,end) forwards; opacity: 0; animation-fill-mode: forwards; }
+    .codeline { opacity: 1; }
 
     .neon { animation: flicker 5s infinite; }
     @keyframes flicker {

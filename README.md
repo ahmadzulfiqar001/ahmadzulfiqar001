@@ -1,4 +1,4 @@
-![Ahmad Zulfiqar — AI/ML Engineer & Full-Stack Developer](banner.svg?v=4)
+![Ahmad Zulfiqar — AI/ML Engineer & Full-Stack Developer](banner.svg?v=5)
 
 <table>
 <tr>
