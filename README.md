@@ -29,7 +29,7 @@
 ### 📡 Status
 
 <p align="center">
-  <img src="currently.svg?v=1" alt="Currently building/learning" width="100%">
+  <img src="currently.svg?v=2" alt="Currently building/learning" width="100%">
 </p>
 
 ### 📊 GitHub Stats & Graphs
