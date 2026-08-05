@@ -102,7 +102,6 @@
     </g>
 
     <text x="0" y="234" text-anchor="middle" font-size="8.5" fill="#8f7bb5" class="mono">PYTHON • REACT • ML</text>
-    <path class="heart" transform="translate(72,224) scale(0.5)" fill="#800000" d="M12 21s-7.5-4.6-10-9.1C.5 8.6 2.4 5 6 5c2 0 3.4 1.1 4 2.1C10.6 6.1 12 5 14 5c3.6 0 5.5 3.6 4 6.9C19.5 16.4 12 21 12 21z"/>
   </g>
 </g>
 </svg>

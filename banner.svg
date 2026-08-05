@@ -128,9 +128,6 @@
     <circle class="sparkle" cx="60" cy="90" r="1.8" style="animation-duration:2.8s; animation-delay:.6s"/>
     <circle class="sparkle" cx="90" cy="220" r="1.5" style="animation-duration:3.4s; animation-delay:1.4s"/>
   </g>
-  <g fill="#800000" opacity="0.85">
-    <path class="heart" style="animation-duration:5s" transform="translate(415,180) scale(0.6)" d="M12 21s-7.5-4.6-10-9.1C.5 8.6 2.4 5 6 5c2 0 3.4 1.1 4 2.1C10.6 6.1 12 5 14 5c3.6 0 5.5 3.6 4 6.9C19.5 16.4 12 21 12 21z"/>
-  </g>
 
   <!-- terminal block -->
   <g transform="translate(48,34)">
@@ -147,7 +144,7 @@
 
   <!-- name (script) -->
   <g transform="translate(48,155)" class="namepop">
-    <text class="script" font-size="64" font-weight="700" fill="url(#nameGrad)">Ahmad Zulfiqar <tspan fill="#800000" font-family="Segoe UI, sans-serif">💗</tspan></text>
+    <text class="script" font-size="64" font-weight="700" fill="url(#nameGrad)">Ahmad Zulfiqar</text>
   </g>
 
   <!-- role tags -->
@@ -177,7 +174,7 @@
 
   <!-- About Me -->
   <g transform="translate(48,406)" class="fadein" style="animation-delay:2.4s">
-    <text font-size="15" font-weight="700" fill="#b33939">💗 About Me</text>
+    <text font-size="15" font-weight="700" fill="#b33939">About Me</text>
     <text x="0" y="26" font-size="13.5" fill="#e6d6d6" class="mono">&gt;_ I build AI-driven and full-stack solutions that solve real problems.</text>
     <text x="0" y="48" font-size="13.5" fill="#e6d6d6" class="mono">💡 Always learning, always building.</text>
     <text x="0" y="70" font-size="13.5" fill="#e6d6d6" class="mono">🚀 Turning research and ideas into working products.</text>
@@ -260,7 +257,7 @@
     </g>
     <circle class="dot" cx="580" cy="25" r="4" fill="#28c840"/>
     <text x="592" y="29" font-size="12" fill="#8fe3a5" class="mono">open to collaborate</text>
-    <text x="1232" y="29" text-anchor="end" font-size="12.5" fill="#b33939" font-style="italic">"Keep coding, keep growing." 💜</text>
+    <text x="1232" y="29" text-anchor="end" font-size="12.5" fill="#b33939" font-style="italic">"Keep coding, keep growing."</text>
   </g>
 
   <g clip-path="url(#scanClip)">
