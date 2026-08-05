@@ -20,9 +20,9 @@ jobs:
         with:
           github_user_name: ahmadzulfiqar001
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-            dist/github-snake-light.svg?palette=github-light
+            dist/github-snake.svg?color_snake=%23b33939&color_dots=%23181818,%233a1a1a,%235c1a1a,%23800000,%23a83232
+            dist/github-snake-dark.svg?color_snake=%23b33939&color_dots=%23181818,%233a1a1a,%235c1a1a,%23800000,%23a83232
+            dist/github-snake-light.svg?color_snake=%23800000&color_dots=%23f5efef,%23e0b8b8,%23cc8888,%23a83232,%23800000
 
       - name: Push Snake Animation to Output Branch
         uses: crazy-max/ghaction-github-pages@v4
